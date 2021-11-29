@@ -1,1 +1,1 @@
-# Collecting Stock Current Values and Upload it to ThingSpeak
+# Collecting Stock Current Values and Uploading It to ThingSpeak
