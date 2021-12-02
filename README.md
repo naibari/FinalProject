@@ -3,3 +3,4 @@ Every 360 seconds, the stocks monitor project collects the current stock value o
 Twitter page: https://twitter.com/naibari777
 ## The results are shown below:
 ![](Program_Code.png)
+![](Thinkspeak1.png)
