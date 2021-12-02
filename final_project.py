@@ -37,36 +37,36 @@ while True:
     walmart_url= 'https://finance.yahoo.com/quote/WMT?p=WMT&.tsrc=fin-srch'
     y1 = 'My(6px) Pos(r) smartphone_Mt(6px) W(100%)'
     walmart_price = get_price(walmart_url, y1)
-    print('Price of Walmart: '+ str(walmart_price))
+    print('Price of Walmart: '+ str(float(walmart_price)))
 
 
 
     amazon_url = 'https://finance.yahoo.com/quote/AMZN?p=AMZN&.tsrc=fin-srch'
     y2 = 'My(6px) Pos(r) smartphone_Mt(6px) W(100%)'
     amazon_price = get_price(amazon_url,y2)
-    print('Price of Amazon: ' + str(amazon_price))
+    print('Price of Amazon: ' + str(float(amazon_price)))
 
     apple_url = 'https://finance.yahoo.com/quote/AAPL?p=AAPL&.tsrc=fin-srch'
     y3 = 'My(6px) Pos(r) smartphone_Mt(6px) W(100%)'
     apple_price = get_price(apple_url, y3)
-    print('Price of Apple: ' + str(apple_price))
+    print('Price of Apple: ' + str(float(apple_price)))
 
     bit_coin_url = 'https://finance.yahoo.com/quote/BTC-USD?p=BTC-USD&.tsrc=fin-srch'
     y4 = 'My(6px) Pos(r) smartphone_Mt(6px) W(100%) D(ib) smartphone_Mb(10px) W(100%)--mobp'
     price_bit = get_price(bit_coin_url, y4)
-    print('Price of bitcoin: ' + str(price_bit))
+    print('Price of bitcoin: ' + str(float(price_bit)))
 
     google_url = 'https://finance.yahoo.com/quote/GOOG?p=GOOG&.tsrc=fin-srch'
     y5 = 'My(6px) Pos(r) smartphone_Mt(6px) W(100%)'
     price_google = get_price(google_url, y5)
-    print('Price of Google: ' + str(price_google))
+    print('Price of Google: ' + str(float(price_google)))
 
 
 
     snapchat_url = 'https://finance.yahoo.com/quote/SNAP?p=SNAP&.tsrc=fin-srch'
     y7 = 'My(6px) Pos(r) smartphone_Mt(6px) W(100%)'
     price_snapchat = get_price(snapchat_url, y7)
-    print('Price of Snapchat: ' + str(price_snapchat))
+    print('Price of Snapchat: ' + str(float(price_snapchat)))
 
 
     thingspeak(price_bit,price_google,price_snapchat,amazon_price,apple_price,walmart_price)
@@ -96,5 +96,5 @@ while True:
         print ("tweet failed due to error=")
         print (response.status_code)
 
-    time.sleep(60)
+    time.sleep(30)
 
