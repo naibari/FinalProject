@@ -96,5 +96,5 @@ while True:
         print ("tweet failed due to error=")
         print (response.status_code)
 
-    time.sleep(30)
+    time.sleep(60)
 
